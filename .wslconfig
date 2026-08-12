@@ -1,0 +1,11 @@
+[wsl2]
+memory=3072MB
+swap=4GB
+guiApplications=false
+vmIdleTimeout=-1
+
+[general]
+instanceIdleTimeout=-1
+
+[experimental]
+autoMemoryReclaim=dropcache
