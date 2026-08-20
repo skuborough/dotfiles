@@ -1,11 +1,13 @@
 "========================
-" My .gvimrc Version 1.1
+" My .gvimrc Version 1.3
 "========================
 
 " Basic
 set number
 set relativenumber
 set cmdheight=2
+set nowrapscan
+set nofoldenable
 
 " Indent
 set expandtab
