@@ -5,3 +5,5 @@ alias sudo='sudo '
 alias ex='exit'
 alias ll='ls -AlF'
 alias vi='nvim'
+
+HISTTIMEFORMAT='%F %T '
