@@ -7,6 +7,9 @@ alias gc='git commit -m'
 alias gm='git merge'
 alias gd='git diff'
 
+function get_repo_root() {
+  git rev-parse --show-toplevel
+}
 function get_local_current_branch() {
   git rev-parse --abbrev-ref HEAD
 }
