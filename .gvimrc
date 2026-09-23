@@ -1,10 +1,9 @@
 "========================
-" My .gvimrc Version 1.3
+" My .gvimrc Version 1.6
 "========================
 
 " Basic
 set number
-set relativenumber
 set cmdheight=2
 set nowrapscan
 set nofoldenable
@@ -18,14 +17,18 @@ set shiftwidth=2
 set lines=24
 set columns=132
 
+" Split
+set splitbelow
+set splitright
+
 " Disable menu bar and tool bar
 set guioptions-=m
 set guioptions-=T
 
-" Font
+" Appearance
 set guifont=CommitMono\_Nerd\_Font:h12
 syntax on
-colorscheme darkblue
+colorscheme peachpuff
 
 " Sync anonymous register and clipboard
 set clipboard=unnamed,unnamedplus
