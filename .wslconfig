@@ -1,8 +1,9 @@
 [wsl2]
-memory=3072MB
+memory=2048MB
 swap=4GB
-guiApplications=false
+#guiApplications=false
 vmIdleTimeout=-1
+MaxCrashDumpCount=1
 
 [general]
 instanceIdleTimeout=-1
